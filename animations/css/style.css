@@ -1,0 +1,56 @@
+body{
+    background: mistyrose;
+}
+*{
+    padding: 0;
+    margin: 0;
+    border: 0 none;
+    outline: 0 none;
+}
+
+.dropdown-wrapper{
+    padding: .25rem .5rem;
+    border : 1px solid;
+    margin: auto;
+    width: 800px;
+}
+.dropdown-wrapper h2{
+    border-bottom: 1px solid;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.dropdown-wrapper a{
+    text-decoration: none;
+    color: rosybrown;
+}
+.dropdown-content{
+    display: none;
+    text-align: center;
+/********** POPIN *********/    
+}
+.shadow{
+    background: rgba(0,0,0,.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed; 
+    display: none;
+    
+}
+
+.popIn a{
+    text-decoration: none;
+    color: rosybrown;
+}
+.popin-content{
+    background-color: white;
+    border-radius: 7px;
+    width: 100%;
+    max-width: 800px;
+    margin: 1rem auto;
+    padding: 2rem;
+    
+    
+}

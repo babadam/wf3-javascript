@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0 none;
+    border: 0 none;
+}
+body{
+    background: mistyrose;
+}
+#main-nav{
+    background-color: GAINSBORO;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: -150px;
+    transition: all 1s linear;
+}
+#main-nav ul{
+    float: right;
+    background-color: mistyrose;
+    width: 150px;
+    list-style-type: none;
+}
+#main-nav.opened{
+    right: 0;
+}

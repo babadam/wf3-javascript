@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0 none;
+    outline: 0 none;
+}
+
+.slider-wrapper{
+    position: relative; 
+    width: 400px;
+    height: 150px;
+    margin : auto;
+    overflow: hidden;
+}
+
+.slide-container{
+    position : absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.slide{
+    float: left;
+    height: 100%;
+    width: 400px;
+}
+
+.slide:first-child{
+    background: url(http://almraah.net/uploads/01-2014/240472_mn66com.gif);
+}
+
+.slide:nth-child(2){
+    background: DARKKHAKI;
+}
+.slide:last-child{
+    background: tomato;
+}
+
+.slider-nav{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.slider-nav a{
+    color: navy;
+    font-size: 2em;
+    text-decoration: none;
+}
